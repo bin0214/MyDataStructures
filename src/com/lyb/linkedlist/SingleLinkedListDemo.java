@@ -152,7 +152,7 @@ class SingleLinkedList {
             System.out.println("要删除的节点不存在");
         }
     }
-
+    //遍历
     public void show() {
         //判断链表是否为空
         if (head.next == null) {
