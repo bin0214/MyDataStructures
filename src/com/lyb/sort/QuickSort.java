@@ -23,7 +23,7 @@ public class QuickSort {
         int r = right;//右下标
         //pivot 中轴值
         int pivot = arr[(left + right )/2];
-        int temp = 0;//临时变量,作为交换时使用
+        int temp ;//临时变量,作为交换时使用
         //while循环的目的是让比pivot 值小放到左边
         //比pivot 值大放到右边
         while (l < r){
